@@ -324,3 +324,14 @@ photo {
     background: #7c0d0d;
     font-weight: bold;
 }
+
+.btn-cstm{
+   
+        color: #fff;
+        background-color: #556ee6;
+        border-color: #556ee6
+
+    
+}
+
+
