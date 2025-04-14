@@ -24,7 +24,7 @@
     <script src="https://g1ver.sprintstaticdata.com/v47/static/front/js/flipclock.js" type="text/javascript"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
 
-   
+
 </head>
 
 <body>
@@ -4554,7 +4554,8 @@
                                             <div class="">
                                                 <div class="datepicker__input-container">
                                                     <div class="mb-2 custom-datepicker">
-                                                        <input type="text" id="datepicker" class="form-control" value="09/04/2025">
+                                                        <input type="text" id="datepicker" class="form-control"
+                                                            value="09/04/2025">
                                                         <i class="far fa-calendar"></i>
                                                     </div>
                                                 </div>
@@ -4668,8 +4669,57 @@
                                                     <th colspan="1" role="columnheader">Winner</th>
                                                 </tr>
                                             </thead>
-                                            <tbody role="rowgroup"></tbody>
+                                            <tbody role="rowgroup">
+                                                <tr role="row">
+                                                    <td role="cell" class="round-id">107250414103913</td>
+                                                    <td role="cell">Low Card</td>
+                                                </tr>
+                                                <tr role="row">
+                                                    <td role="cell" class="round-id">107250414103831</td>
+                                                    <td role="cell">High Card</td>
+                                                </tr>
+                                                <tr role="row">
+                                                    <td role="cell" class="round-id">107250414103742</td>
+                                                    <td role="cell">Low Card</td>
+                                                </tr>
+                                                <tr role="row">
+                                                    <td role="cell" class="round-id">107250414103652</td>
+                                                    <td role="cell">High Card</td>
+                                                </tr>
+                                                <tr role="row">
+                                                    <td role="cell" class="round-id">107250414103616</td>
+                                                    <td role="cell">Low Card</td>
+                                                </tr>
+                                                <tr role="row">
+                                                    <td role="cell" class="round-id">107250414103539</td>
+                                                    <td role="cell">High Card</td>
+                                                </tr>
+                                                <tr role="row">
+                                                    <td role="cell" class="round-id">107250414103505</td>
+                                                    <td role="cell">High Card</td>
+                                                </tr>
+                                                <tr role="row">
+                                                    <td role="cell" class="round-id">107250414103430</td>
+                                                    <td role="cell">High Card</td>
+                                                </tr>
+                                                <tr role="row">
+                                                    <td role="cell" class="round-id">107250414103353</td>
+                                                    <td role="cell">High Card</td>
+                                                </tr>
+                                                <tr role="row">
+                                                    <td role="cell" class="round-id">107250414103315</td>
+                                                    <td role="cell">High Card</td>
+                                                </tr>
+                                            </tbody>
                                         </table>
+                                    </div>
+                                    <div class="custom-pagination mt-2">
+                                        <div disabled="">First</div>
+                                        <div disabled="">Previous</div>
+                                        <div>Next</div>
+                                        <div>Last</div>
+                                        <div><span class="me-2">Page <b>1 of 49</b></span><span class="me-2">| Go to
+                                                Page</span><input class="form-control" type="number" value="1"></div>
                                     </div>
                                 </div>
                             </div>
@@ -4725,20 +4775,73 @@
             </div>
         </div>
     </div>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div role="dialog" aria-modal="true" 
+        class="fade modal show" tabindex="-1" style="display: block;">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div class="modal-title h4">Result</div><button type="button" class="btn-close"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="casino-result-modal">
+                            <div class="casino-result-round-id"><span><b>Round Id: </b> 107250414103913</span><span><b>Match
+                                        Time: </b>14/04/2025 10:39:13</span></div>
+                            <div class="row mt-2">
+                                <div class="col-md-12 text-center">
+                                    <div class="casino-result-cards"><img
+                                            src="https://g1ver.sprintstaticdata.com/v47/static/front/img/cards/4HH.jpg">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-2 justify-content-center">
+                                <div class="col-md-6">
+                                    <div class="casino-result-desc">
+                                        <div class="casino-result-desc-item">
+                                            <div>Winner</div>
+                                            <div>Low Card</div>
+                                        </div>
+                                        <div class="casino-result-desc-item">
+                                            <div>Odd/Even</div>
+                                            <div>Even</div>
+                                        </div>
+                                        <div class="casino-result-desc-item">
+                                            <div>Color</div>
+                                            <div>Red</div>
+                                        </div>
+                                        <div class="casino-result-desc-item">
+                                            <div>Card</div>
+                                            <div>4</div>
+                                        </div>
+                                        <div class="casino-result-desc-item">
+                                            <div>Line</div>
+                                            <div>4 5 6</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
 
-<script>
+    <script>
         flatpickr("#datepicker", {
-        dateFormat: "d/m/Y", // Matches your existing format (DD/MM/YYYY)
-        defaultDate: "09/04/2025"
-    });
+            dateFormat: "d/m/Y", // Matches your existing format (DD/MM/YYYY)
+            defaultDate: "09/04/2025"
+        });
 
-    document.querySelector(".custom-datepicker i").addEventListener("click", function () {
-    document.querySelector("#datepicker")._flatpickr.open();
-});
-</script>
-  
+        document.querySelector(".custom-datepicker i").addEventListener("click", function () {
+            document.querySelector("#datepicker")._flatpickr.open();
+        });
+    </script>
+
 </body>
 
 </html>

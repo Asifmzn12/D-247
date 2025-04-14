@@ -30,11 +30,18 @@
                         href="/home"><img src="https://sitethemedata.com/sitethemes/d247.com/front/logo.png"></a></div>
                 <div class="user-details">
                     <div class="search-box-container d-none d-xl-block">
-                        <div class="search-box"><input type="search" placeholder="Search here" class="form-control"
-                                value=""><a><i class="fas fa-search-plus"></i></a></div>
+                        <div class="search-box">
+                            <input type="search" placeholder="Search here" class="form-control"
+                                value="">
+                                <a><i class="fas fa-search-plus"></i></a>
+                            </div>
                     </div>
                     <div class="header-rules ms-3 ">
-                        <div><a class="rules-link pointer"><b>Rules</b></a></div>
+                        <div>
+                            <a class="rules-link pointer" data-bs-toggle="modal"
+                                data-bs-target="#ruleModal"><b>Rules</b></a>
+
+                        </div>
                         <div><a target="_blank" href="https://sitethemedata.com/apk/d247-1.31.apk"><span><b>Download
                                         Apk</b> <i class="fab fa-android"></i></span></a></div>
                     </div>
@@ -5688,8 +5695,9 @@
     </div>
 
     <!-- Rule Modal -->
-    <div role="dialog" aria-modal="true" class="fade rules-modal modal show" tabindex="-1" style="display: block;">
-        <div class="modal-dialog modal-xl">
+    <div class="modal fade" id="ruleModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl  rules-modal">
             <div class="modal-content">
                 <div class="modal-header">
                     <div class="modal-title h4">Rules</div>
@@ -5698,130 +5706,212 @@
                                 class="dropdown-toggle btn"><img
                                     src="https://g1ver.sprintstaticdata.com/v47/static/front/img/flags/flag_english.png">English</button>
                         </div>
-                    </div><button type="button" class="btn-close" aria-label="Close"></button>
+                    </div><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                     <div class="rules-left-sidebar">
-                        <div class="nav nav-pills" role="tablist">
-                            <div class="nav-item"><a role="tab" data-rr-ui-event-key="0" id="tules-tabs-tab-0"
-                                    aria-controls="tules-tabs-tabpane-0" aria-selected="true" class="nav-link active"
-                                    tabindex="0" href="#">Football</a></div>
-                            <div class="nav-item"><a role="tab" data-rr-ui-event-key="1" id="tules-tabs-tab-1"
-                                    aria-controls="tules-tabs-tabpane-1" aria-selected="false" tabindex="-1"
-                                    class="nav-link" href="#">Horse Racing</a></div>
-                            <div class="nav-item"><a role="tab" data-rr-ui-event-key="2" id="tules-tabs-tab-2"
-                                    aria-controls="tules-tabs-tabpane-2" aria-selected="false" tabindex="-1"
-                                    class="nav-link" href="#">E Games</a></div>
-                            <div class="nav-item"><a role="tab" data-rr-ui-event-key="3" id="tules-tabs-tab-3"
-                                    aria-controls="tules-tabs-tabpane-3" aria-selected="false" tabindex="-1"
-                                    class="nav-link" href="#">Basketball</a></div>
-                            <div class="nav-item"><a role="tab" data-rr-ui-event-key="4" id="tules-tabs-tab-4"
-                                    aria-controls="tules-tabs-tabpane-4" aria-selected="false" tabindex="-1"
-                                    class="nav-link" href="#">MotoGP</a></div>
-                            <div class="nav-item"><a role="tab" data-rr-ui-event-key="5" id="tules-tabs-tab-5"
-                                    aria-controls="tules-tabs-tabpane-5" aria-selected="false" tabindex="-1"
-                                    class="nav-link" href="#">Chess</a></div>
-                            <div class="nav-item"><a role="tab" data-rr-ui-event-key="6" id="tules-tabs-tab-6"
-                                    aria-controls="tules-tabs-tabpane-6" aria-selected="false" tabindex="-1"
-                                    class="nav-link" href="#">Volleyball</a></div>
-                            <div class="nav-item"><a role="tab" data-rr-ui-event-key="7" id="tules-tabs-tab-7"
-                                    aria-controls="tules-tabs-tabpane-7" aria-selected="false" tabindex="-1"
-                                    class="nav-link" href="#">Ice Hockey</a></div>
-                            <div class="nav-item"><a role="tab" data-rr-ui-event-key="8" id="tules-tabs-tab-8"
-                                    aria-controls="tules-tabs-tabpane-8" aria-selected="false" tabindex="-1"
-                                    class="nav-link" href="#">Tennis</a></div>
-                            <div class="nav-item"><a role="tab" data-rr-ui-event-key="9" id="tules-tabs-tab-9"
-                                    aria-controls="tules-tabs-tabpane-9" aria-selected="false" tabindex="-1"
-                                    class="nav-link" href="#">Badminton</a></div>
-                            <div class="nav-item"><a role="tab" data-rr-ui-event-key="10" id="tules-tabs-tab-10"
-                                    aria-controls="tules-tabs-tabpane-10" aria-selected="false" tabindex="-1"
-                                    class="nav-link" href="#">Cycling</a></div>
-                            <div class="nav-item"><a role="tab" data-rr-ui-event-key="11" id="tules-tabs-tab-11"
-                                    aria-controls="tules-tabs-tabpane-11" aria-selected="false" tabindex="-1"
-                                    class="nav-link" href="#">Mixed Martial Arts</a></div>
-                            <div class="nav-item"><a role="tab" data-rr-ui-event-key="12" id="tules-tabs-tab-12"
-                                    aria-controls="tules-tabs-tabpane-12" aria-selected="false" tabindex="-1"
-                                    class="nav-link" href="#">Motorbikes</a></div>
-                            <div class="nav-item"><a role="tab" data-rr-ui-event-key="13" id="tules-tabs-tab-13"
-                                    aria-controls="tules-tabs-tabpane-13" aria-selected="false" tabindex="-1"
-                                    class="nav-link" href="#">Athletics</a></div>
-                            <div class="nav-item"><a role="tab" data-rr-ui-event-key="14" id="tules-tabs-tab-14"
-                                    aria-controls="tules-tabs-tabpane-14" aria-selected="false" tabindex="-1"
-                                    class="nav-link" href="#">Basketball 3X3</a></div>
-                            <div class="nav-item"><a role="tab" data-rr-ui-event-key="15" id="tules-tabs-tab-15"
-                                    aria-controls="tules-tabs-tabpane-15" aria-selected="false" tabindex="-1"
-                                    class="nav-link" href="#">Sumo</a></div>
-                            <div class="nav-item"><a role="tab" data-rr-ui-event-key="16" id="tules-tabs-tab-16"
-                                    aria-controls="tules-tabs-tabpane-16" aria-selected="false" tabindex="-1"
-                                    class="nav-link" href="#">Virtual sports</a></div>
-                            <div class="nav-item"><a role="tab" data-rr-ui-event-key="17" id="tules-tabs-tab-17"
-                                    aria-controls="tules-tabs-tabpane-17" aria-selected="false" tabindex="-1"
-                                    class="nav-link" href="#">Handball</a></div>
-                            <div class="nav-item"><a role="tab" data-rr-ui-event-key="18" id="tules-tabs-tab-18"
-                                    aria-controls="tules-tabs-tabpane-18" aria-selected="false" tabindex="-1"
-                                    class="nav-link" href="#">Cricket</a></div>
-                            <div class="nav-item"><a role="tab" data-rr-ui-event-key="19" id="tules-tabs-tab-19"
-                                    aria-controls="tules-tabs-tabpane-19" aria-selected="false" tabindex="-1"
-                                    class="nav-link" href="#">Politics</a></div>
-                            <div class="nav-item"><a role="tab" data-rr-ui-event-key="20" id="tules-tabs-tab-20"
-                                    aria-controls="tules-tabs-tabpane-20" aria-selected="false" tabindex="-1"
-                                    class="nav-link" href="#">Golf</a></div>
-                            <div class="nav-item"><a role="tab" data-rr-ui-event-key="21" id="tules-tabs-tab-21"
-                                    aria-controls="tules-tabs-tabpane-21" aria-selected="false" tabindex="-1"
-                                    class="nav-link" href="#">Motor Sports</a></div>
-                            <div class="nav-item"><a role="tab" data-rr-ui-event-key="22" id="tules-tabs-tab-22"
-                                    aria-controls="tules-tabs-tabpane-22" aria-selected="false" tabindex="-1"
-                                    class="nav-link" href="#">Baseball</a></div>
-                            <div class="nav-item"><a role="tab" data-rr-ui-event-key="23" id="tules-tabs-tab-23"
-                                    aria-controls="tules-tabs-tabpane-23" aria-selected="false" tabindex="-1"
-                                    class="nav-link" href="#">Rugby Union</a></div>
-                            <div class="nav-item"><a role="tab" data-rr-ui-event-key="24" id="tules-tabs-tab-24"
-                                    aria-controls="tules-tabs-tabpane-24" aria-selected="false" tabindex="-1"
-                                    class="nav-link" href="#">Rugby League</a></div>
-                            <div class="nav-item"><a role="tab" data-rr-ui-event-key="25" id="tules-tabs-tab-25"
-                                    aria-controls="tules-tabs-tabpane-25" aria-selected="false" tabindex="-1"
-                                    class="nav-link" href="#">Darts</a></div>
-                            <div class="nav-item"><a role="tab" data-rr-ui-event-key="26" id="tules-tabs-tab-26"
-                                    aria-controls="tules-tabs-tabpane-26" aria-selected="false" tabindex="-1"
-                                    class="nav-link" href="#">American Football</a></div>
-                            <div class="nav-item"><a role="tab" data-rr-ui-event-key="27" id="tules-tabs-tab-27"
-                                    aria-controls="tules-tabs-tabpane-27" aria-selected="false" tabindex="-1"
-                                    class="nav-link" href="#">Snooker</a></div>
-                            <div class="nav-item"><a role="tab" data-rr-ui-event-key="28" id="tules-tabs-tab-28"
-                                    aria-controls="tules-tabs-tabpane-28" aria-selected="false" tabindex="-1"
-                                    class="nav-link" href="#">Boxing</a></div>
-                            <div class="nav-item"><a role="tab" data-rr-ui-event-key="29" id="tules-tabs-tab-29"
-                                    aria-controls="tules-tabs-tabpane-29" aria-selected="false" tabindex="-1"
-                                    class="nav-link" href="#">Soccer</a></div>
-                            <div class="nav-item"><a role="tab" data-rr-ui-event-key="30" id="tules-tabs-tab-30"
-                                    aria-controls="tules-tabs-tabpane-30" aria-selected="false" tabindex="-1"
-                                    class="nav-link" href="#">Esports</a></div>
-                            <div class="nav-item"><a role="tab" data-rr-ui-event-key="31" id="tules-tabs-tab-31"
-                                    aria-controls="tules-tabs-tabpane-31" aria-selected="false" tabindex="-1"
-                                    class="nav-link" href="#">Greyhound Racing</a></div>
-                            <div class="nav-item"><a role="tab" data-rr-ui-event-key="32" id="tules-tabs-tab-32"
-                                    aria-controls="tules-tabs-tabpane-32" aria-selected="false" tabindex="-1"
-                                    class="nav-link" href="#">Kabaddi</a></div>
-                            <div class="nav-item"><a role="tab" data-rr-ui-event-key="33" id="tules-tabs-tab-33"
-                                    aria-controls="tules-tabs-tabpane-33" aria-selected="false" tabindex="-1"
-                                    class="nav-link" href="#">Boat Racing</a></div>
-                            <div class="nav-item"><a role="tab" data-rr-ui-event-key="34" id="tules-tabs-tab-34"
-                                    aria-controls="tules-tabs-tabpane-34" aria-selected="false" tabindex="-1"
-                                    class="nav-link" href="#">Esoccer</a></div>
-                            <div class="nav-item"><a role="tab" data-rr-ui-event-key="35" id="tules-tabs-tab-35"
-                                    aria-controls="tules-tabs-tabpane-35" aria-selected="false" tabindex="-1"
-                                    class="nav-link" href="#">Beach Volleyball</a></div>
-                            <div class="nav-item"><a role="tab" data-rr-ui-event-key="36" id="tules-tabs-tab-36"
-                                    aria-controls="tules-tabs-tabpane-36" aria-selected="false" tabindex="-1"
-                                    class="nav-link" href="#">Table Tennis</a></div>
-                            <div class="nav-item"><a role="tab" data-rr-ui-event-key="37" id="tules-tabs-tab-37"
-                                    aria-controls="tules-tabs-tabpane-37" aria-selected="false" tabindex="-1"
-                                    class="nav-link" href="#">Futsal</a></div>
+                        <div class="nav nav-pills" id="rules-tabs" role="tablist">
+                            <!-- Tab Links -->
+                            <div class="nav-item">
+                                <a class="nav-link active" id="rules-tabs-tab-0" data-bs-toggle="tab"
+                                    href="#rules-tabs-tabpane-0" role="tab" aria-controls="rules-tabs-tabpane-0"
+                                    aria-selected="true" tabindex="-1">Football</a>
+                            </div>
+                            <div class="nav-item">
+                                <a class="nav-link" id="rules-tabs-tab-1" data-bs-toggle="tab" href="#horseracing"
+                                    role="tab" aria-controls="rules-tabs-tabpane-1" aria-selected="false"
+                                    tabindex="-1">Horse Racing</a>
+                            </div>
+                            <div class="nav-item">
+                                <a class="nav-link" id="rules-tabs-tab-2" data-bs-toggle="tab" href="#egames" role="tab"
+                                    aria-controls="rules-tabs-tabpane-2" aria-selected="false" tabindex="-1">E Games</a>
+                            </div>
+                            <div class="nav-item">
+                                <a class="nav-link" id="rules-tabs-tab-3" data-bs-toggle="tab"
+                                    href="#rules-tabs-tabpane-3" role="tab" aria-controls="rules-tabs-tabpane-3"
+                                    aria-selected="false" tabindex="-1">Basketball</a>
+                            </div>
+                            <div class="nav-item">
+                                <a class="nav-link" id="rules-tabs-tab-4" data-bs-toggle="tab"
+                                    href="#rules-tabs-tabpane-4" role="tab" aria-controls="rules-tabs-tabpane-4"
+                                    aria-selected="false" tabindex="-1">MotoGP</a>
+                            </div>
+                            <div class="nav-item">
+                                <a class="nav-link" id="rules-tabs-tab-5" data-bs-toggle="tab"
+                                    href="#rules-tabs-tabpane-5" role="tab" aria-controls="rules-tabs-tabpane-5"
+                                    aria-selected="false" tabindex="-1">Chess</a>
+                            </div>
+                            <div class="nav-item">
+                                <a class="nav-link" id="rules-tabs-tab-6" data-bs-toggle="tab"
+                                    href="#rules-tabs-tabpane-6" role="tab" aria-controls="rules-tabs-tabpane-6"
+                                    aria-selected="false" tabindex="-1">Volleyball</a>
+                            </div>
+                            <div class="nav-item">
+                                <a class="nav-link" id="rules-tabs-tab-7" data-bs-toggle="tab"
+                                    href="#rules-tabs-tabpane-7" role="tab" aria-controls="rules-tabs-tabpane-7"
+                                    aria-selected="false" tabindex="-1">Ice Hockey</a>
+                            </div>
+                            <div class="nav-item">
+                                <a class="nav-link" id="rules-tabs-tab-8" data-bs-toggle="tab"
+                                    href="#rules-tabs-tabpane-8" role="tab" aria-controls="rules-tabs-tabpane-8"
+                                    aria-selected="false" tabindex="-1">Tennis</a>
+                            </div>
+                            <div class="nav-item">
+                                <a class="nav-link" id="rules-tabs-tab-9" data-bs-toggle="tab"
+                                    href="#rules-tabs-tabpane-9" role="tab" aria-controls="rules-tabs-tabpane-9"
+                                    aria-selected="false" tabindex="-1">Badminton</a>
+                            </div>
+                            <div class="nav-item">
+                                <a class="nav-link" id="rules-tabs-tab-10" data-bs-toggle="tab"
+                                    href="#rules-tabs-tabpane-10" role="tab" aria-controls="rules-tabs-tabpane-10"
+                                    aria-selected="false" tabindex="-1">Cycling</a>
+                            </div>
+                            <div class="nav-item">
+                                <a class="nav-link" id="rules-tabs-tab-11" data-bs-toggle="tab"
+                                    href="#rules-tabs-tabpane-11" role="tab" aria-controls="rules-tabs-tabpane-11"
+                                    aria-selected="false" tabindex="-1">Mixed Martial Arts</a>
+                            </div>
+                            <div class="nav-item">
+                                <a class="nav-link" id="rules-tabs-tab-12" data-bs-toggle="tab"
+                                    href="#rules-tabs-tabpane-12" role="tab" aria-controls="rules-tabs-tabpane-12"
+                                    aria-selected="false" tabindex="-1">Motorbikes</a>
+                            </div>
+                            <div class="nav-item">
+                                <a class="nav-link" id="rules-tabs-tab-13" data-bs-toggle="tab"
+                                    href="#rules-tabs-tabpane-13" role="tab" aria-controls="rules-tabs-tabpane-13"
+                                    aria-selected="false" tabindex="-1">Athletics</a>
+                            </div>
+                            <div class="nav-item">
+                                <a class="nav-link" id="rules-tabs-tab-14" data-bs-toggle="tab"
+                                    href="#rules-tabs-tabpane-14" role="tab" aria-controls="rules-tabs-tabpane-14"
+                                    aria-selected="false" tabindex="-1">Basketball 3X3</a>
+                            </div>
+                            <div class="nav-item">
+                                <a class="nav-link" id="rules-tabs-tab-15" data-bs-toggle="tab"
+                                    href="#rules-tabs-tabpane-15" role="tab" aria-controls="rules-tabs-tabpane-15"
+                                    aria-selected="false" tabindex="-1">Sumo</a>
+                            </div>
+                            <div class="nav-item">
+                                <a class="nav-link" id="rules-tabs-tab-16" data-bs-toggle="tab"
+                                    href="#rules-tabs-tabpane-16" role="tab" aria-controls="rules-tabs-tabpane-16"
+                                    aria-selected="false" tabindex="-1">Virtual sports</a>
+                            </div>
+                            <div class="nav-item">
+                                <a class="nav-link" id="rules-tabs-tab-17" data-bs-toggle="tab"
+                                    href="#rules-tabs-tabpane-17" role="tab" aria-controls="rules-tabs-tabpane-17"
+                                    aria-selected="false" tabindex="-1">Handball</a>
+                            </div>
+                            <div class="nav-item">
+                                <a class="nav-link" id="rules-tabs-tab-18" data-bs-toggle="tab"
+                                    href="#rules-tabs-tabpane-18" role="tab" aria-controls="rules-tabs-tabpane-18"
+                                    aria-selected="false" tabindex="-1">Cricket</a>
+                            </div>
+                            <div class="nav-item">
+                                <a class="nav-link" id="rules-tabs-tab-19" data-bs-toggle="tab"
+                                    href="#rules-tabs-tabpane-19" role="tab" aria-controls="rules-tabs-tabpane-19"
+                                    aria-selected="false" tabindex="-1">Politics</a>
+                            </div>
+                            <div class="nav-item">
+                                <a class="nav-link" id="rules-tabs-tab-20" data-bs-toggle="tab"
+                                    href="#rules-tabs-tabpane-20" role="tab" aria-controls="rules-tabs-tabpane-20"
+                                    aria-selected="false" tabindex="-1">Golf</a>
+                            </div>
+                            <div class="nav-item">
+                                <a class="nav-link" id="rules-tabs-tab-21" data-bs-toggle="tab"
+                                    href="#rules-tabs-tabpane-21" role="tab" aria-controls="rules-tabs-tabpane-21"
+                                    aria-selected="false" tabindex="-1">Motor Sports</a>
+                            </div>
+                            <div class="nav-item">
+                                <a class="nav-link" id="rules-tabs-tab-22" data-bs-toggle="tab"
+                                    href="#rules-tabs-tabpane-22" role="tab" aria-controls="rules-tabs-tabpane-22"
+                                    aria-selected="false" tabindex="-1">Baseball</a>
+                            </div>
+                            <div class="nav-item">
+                                <a class="nav-link" id="rules-tabs-tab-23" data-bs-toggle="tab"
+                                    href="#rules-tabs-tabpane-23" role="tab" aria-controls="rules-tabs-tabpane-23"
+                                    aria-selected="false" tabindex="-1">Rugby Union</a>
+                            </div>
+                            <div class="nav-item">
+                                <a class="nav-link" id="rules-tabs-tab-24" data-bs-toggle="tab"
+                                    href="#rules-tabs-tabpane-24" role="tab" aria-controls="rules-tabs-tabpane-24"
+                                    aria-selected="false" tabindex="-1">Rugby League</a>
+                            </div>
+                            <div class="nav-item">
+                                <a class="nav-link" id="rules-tabs-tab-25" data-bs-toggle="tab"
+                                    href="#rules-tabs-tabpane-25" role="tab" aria-controls="rules-tabs-tabpane-25"
+                                    aria-selected="false" tabindex="-1">Darts</a>
+                            </div>
+                            <div class="nav-item">
+                                <a class="nav-link" id="rules-tabs-tab-26" data-bs-toggle="tab"
+                                    href="#rules-tabs-tabpane-26" role="tab" aria-controls="rules-tabs-tabpane-26"
+                                    aria-selected="false" tabindex="-1">American Football</a>
+                            </div>
+                            <div class="nav-item">
+                                <a class="nav-link" id="rules-tabs-tab-27" data-bs-toggle="tab"
+                                    href="#rules-tabs-tabpane-27" role="tab" aria-controls="rules-tabs-tabpane-27"
+                                    aria-selected="false" tabindex="-1">Snooker</a>
+                            </div>
+                            <div class="nav-item">
+                                <a class="nav-link" id="rules-tabs-tab-28" data-bs-toggle="tab"
+                                    href="#rules-tabs-tabpane-28" role="tab" aria-controls="rules-tabs-tabpane-28"
+                                    aria-selected="false" tabindex="-1">Boxing</a>
+                            </div>
+                            <div class="nav-item">
+                                <a class="nav-link" id="rules-tabs-tab-29" data-bs-toggle="tab"
+                                    href="#rules-tabs-tabpane-29" role="tab" aria-controls="rules-tabs-tabpane-29"
+                                    aria-selected="false" tabindex="-1">Soccer</a>
+                            </div>
+                            <div class="nav-item">
+                                <a class="nav-link" id="rules-tabs-tab-30" data-bs-toggle="tab"
+                                    href="#rules-tabs-tabpane-30" role="tab" aria-controls="rules-tabs-tabpane-30"
+                                    aria-selected="false" tabindex="-1">Esports</a>
+                            </div>
+                            <div class="nav-item">
+                                <a class="nav-link" id="rules-tabs-tab-31" data-bs-toggle="tab"
+                                    href="#rules-tabs-tabpane-31" role="tab" aria-controls="rules-tabs-tabpane-31"
+                                    aria-selected="false" tabindex="-1">Greyhound Racing</a>
+                            </div>
+                            <div class="nav-item">
+                                <a class="nav-link" id="rules-tabs-tab-32" data-bs-toggle="tab"
+                                    href="#rules-tabs-tabpane-32" role="tab" aria-controls="rules-tabs-tabpane-32"
+                                    aria-selected="false" tabindex="-1">Kabaddi</a>
+                            </div>
+                            <div class="nav-item">
+                                <a class="nav-link" id="rules-tabs-tab-33" data-bs-toggle="tab"
+                                    href="#rules-tabs-tabpane-33" role="tab" aria-controls="rules-tabs-tabpane-33"
+                                    aria-selected="false" tabindex="-1">Boat Racing</a>
+                            </div>
+                            <div class="nav-item">
+                                <a class="nav-link" id="rules-tabs-tab-34" data-bs-toggle="tab"
+                                    href="#rules-tabs-tabpane-34" role="tab" aria-controls="rules-tabs-tabpane-34"
+                                    aria-selected="false" tabindex="-1">Esoccer</a>
+                            </div>
+                            <div class="nav-item">
+                                <a class="nav-link" id="rules-tabs-tab-35" data-bs-toggle="tab"
+                                    href="#rules-tabs-tabpane-35" role="tab" aria-controls="rules-tabs-tabpane-35"
+                                    aria-selected="false" tabindex="-1">Beach Volleyball</a>
+                            </div>
+                            <div class="nav-item">
+                                <a class="nav-link" id="rules-tabs-tab-36" data-bs-toggle="tab"
+                                    href="#rules-tabs-tabpane-36" role="tab" aria-controls="rules-tabs-tabpane-36"
+                                    aria-selected="false" tabindex="-1">Table Tennis</a>
+                            </div>
+                            <div class="nav-item">
+                                <a class="nav-link" id="rules-tabs-tab-37" data-bs-toggle="tab"
+                                    href="#rules-tabs-tabpane-37" role="tab" aria-controls="rules-tabs-tabpane-37"
+                                    aria-selected="false" tabindex="-1">Futsal</a>
+                            </div>
                         </div>
                     </div>
+
+
+
+
+
                     <div class="rules-content">
+
                         <div class="tab-content">
-                            <div role="tabpanel" id="tules-tabs-tabpane-0" aria-labelledby="tules-tabs-tab-0"
+                            <div role="tabpanel" id="rules-tabs-tabpane-0" aria-labelledby="rules-tabs-tab-0"
                                 class="fade tab-pane active show">
                                 <div class="rules-content-title">bookmaker</div>
                                 <div class="rules-content-desc">
@@ -6054,7 +6144,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div role="tabpanel" id="tules-tabs-tabpane-1" aria-labelledby="tules-tabs-tab-1"
+                            <div role="tabpanel" id="horseracing" aria-labelledby="rules-tabs-tab-1"
                                 class="fade tab-pane">
                                 <div class="rules-content-title">match</div>
                                 <div class="rules-content-desc">
@@ -6342,8 +6432,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div role="tabpanel" id="tules-tabs-tabpane-2" aria-labelledby="tules-tabs-tab-2"
-                                class="fade tab-pane">
+                            <div role="tabpanel" id="egames" aria-labelledby="rules-tabs-tab-2" class="fade tab-pane">
                                 <div class="rules-content-title">match</div>
                                 <div class="rules-content-desc">
                                     <div class="table-responsive">
@@ -6380,7 +6469,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div role="tabpanel" id="tules-tabs-tabpane-3" aria-labelledby="tules-tabs-tab-3"
+                            <div role="tabpanel" id="rules-tabs-tabpane-3" aria-labelledby="rules-tabs-tab-3"
                                 class="fade tab-pane">
                                 <div class="rules-content-title">match</div>
                                 <div class="rules-content-desc">
@@ -6442,7 +6531,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div role="tabpanel" id="tules-tabs-tabpane-4" aria-labelledby="tules-tabs-tab-4"
+                            <div role="tabpanel" id="rules-tabs-tabpane-4" aria-labelledby="rules-tabs-tab-4"
                                 class="fade tab-pane">
                                 <div class="rules-content-title">match</div>
                                 <div class="rules-content-desc">
@@ -6476,7 +6565,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div role="tabpanel" id="tules-tabs-tabpane-5" aria-labelledby="tules-tabs-tab-5"
+                            <div role="tabpanel" id="rules-tabs-tabpane-5" aria-labelledby="rules-tabs-tab-5"
                                 class="fade tab-pane">
                                 <div class="rules-content-title">match</div>
                                 <div class="rules-content-desc">
@@ -6510,7 +6599,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div role="tabpanel" id="tules-tabs-tabpane-6" aria-labelledby="tules-tabs-tab-6"
+                            <div role="tabpanel" id="rules-tabs-tabpane-6" aria-labelledby="rules-tabs-tab-6"
                                 class="fade tab-pane">
                                 <div class="rules-content-title">match</div>
                                 <div class="rules-content-desc">
@@ -6557,7 +6646,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div role="tabpanel" id="tules-tabs-tabpane-7" aria-labelledby="tules-tabs-tab-7"
+                            <div role="tabpanel" id="rules-tabs-tabpane-7" aria-labelledby="rules-tabs-tab-7"
                                 class="fade tab-pane">
                                 <div class="rules-content-title">match</div>
                                 <div class="rules-content-desc">
@@ -6610,7 +6699,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div role="tabpanel" id="tules-tabs-tabpane-8" aria-labelledby="tules-tabs-tab-8"
+                            <div role="tabpanel" id="rules-tabs-tabpane-8" aria-labelledby="rules-tabs-tab-8"
                                 class="fade tab-pane">
                                 <div class="rules-content-title">match</div>
                                 <div class="rules-content-desc">
@@ -6679,7 +6768,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div role="tabpanel" id="tules-tabs-tabpane-9" aria-labelledby="tules-tabs-tab-9"
+                            <div role="tabpanel" id="rules-tabs-tabpane-9" aria-labelledby="rules-tabs-tab-9"
                                 class="fade tab-pane">
                                 <div class="rules-content-title">match</div>
                                 <div class="rules-content-desc">
@@ -6727,7 +6816,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div role="tabpanel" id="tules-tabs-tabpane-10" aria-labelledby="tules-tabs-tab-10"
+                            <div role="tabpanel" id="rules-tabs-tabpane-10" aria-labelledby="rules-tabs-tab-10"
                                 class="fade tab-pane">
                                 <div class="rules-content-title">match</div>
                                 <div class="rules-content-desc">
@@ -6761,7 +6850,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div role="tabpanel" id="tules-tabs-tabpane-11" aria-labelledby="tules-tabs-tab-11"
+                            <div role="tabpanel" id="rules-tabs-tabpane-11" aria-labelledby="rules-tabs-tab-11"
                                 class="fade tab-pane">
                                 <div class="rules-content-title">match</div>
                                 <div class="rules-content-desc">
@@ -6795,7 +6884,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div role="tabpanel" id="tules-tabs-tabpane-12" aria-labelledby="tules-tabs-tab-12"
+                            <div role="tabpanel" id="rules-tabs-tabpane-12" aria-labelledby="rules-tabs-tab-12"
                                 class="fade tab-pane">
                                 <div class="rules-content-title">match</div>
                                 <div class="rules-content-desc">
@@ -6829,7 +6918,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div role="tabpanel" id="tules-tabs-tabpane-13" aria-labelledby="tules-tabs-tab-13"
+                            <div role="tabpanel" id="rules-tabs-tabpane-13" aria-labelledby="rules-tabs-tab-13"
                                 class="fade tab-pane">
                                 <div class="rules-content-title">match</div>
                                 <div class="rules-content-desc">
@@ -6863,7 +6952,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div role="tabpanel" id="tules-tabs-tabpane-14" aria-labelledby="tules-tabs-tab-14"
+                            <div role="tabpanel" id="rules-tabs-tabpane-14" aria-labelledby="rules-tabs-tab-14"
                                 class="fade tab-pane">
                                 <div class="rules-content-title">match</div>
                                 <div class="rules-content-desc">
@@ -6897,7 +6986,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div role="tabpanel" id="tules-tabs-tabpane-15" aria-labelledby="tules-tabs-tab-15"
+                            <div role="tabpanel" id="rules-tabs-tabpane-15" aria-labelledby="rules-tabs-tab-15"
                                 class="fade tab-pane">
                                 <div class="rules-content-title">match</div>
                                 <div class="rules-content-desc">
@@ -6931,7 +7020,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div role="tabpanel" id="tules-tabs-tabpane-16" aria-labelledby="tules-tabs-tab-16"
+                            <div role="tabpanel" id="rules-tabs-tabpane-16" aria-labelledby="rules-tabs-tab-16"
                                 class="fade tab-pane">
                                 <div class="rules-content-title">match</div>
                                 <div class="rules-content-desc">
@@ -6965,7 +7054,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div role="tabpanel" id="tules-tabs-tabpane-17" aria-labelledby="tules-tabs-tab-17"
+                            <div role="tabpanel" id="rules-tabs-tabpane-17" aria-labelledby="rules-tabs-tab-17"
                                 class="fade tab-pane">
                                 <div class="rules-content-title">match</div>
                                 <div class="rules-content-desc">
@@ -7013,7 +7102,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div role="tabpanel" id="tules-tabs-tabpane-18" aria-labelledby="tules-tabs-tab-18"
+                            <div role="tabpanel" id="rules-tabs-tabpane-18" aria-labelledby="rules-tabs-tab-18"
                                 class="fade tab-pane">
                                 <div class="rules-content-title">bookmaker</div>
                                 <div class="rules-content-desc">
@@ -10573,7 +10662,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div role="tabpanel" id="tules-tabs-tabpane-19" aria-labelledby="tules-tabs-tab-19"
+                            <div role="tabpanel" id="rules-tabs-tabpane-19" aria-labelledby="rules-tabs-tab-19"
                                 class="fade tab-pane">
                                 <div class="rules-content-title">fancy</div>
                                 <div class="rules-content-desc">
@@ -10629,7 +10718,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div role="tabpanel" id="tules-tabs-tabpane-20" aria-labelledby="tules-tabs-tab-20"
+                            <div role="tabpanel" id="rules-tabs-tabpane-20" aria-labelledby="rules-tabs-tab-20"
                                 class="fade tab-pane">
                                 <div class="rules-content-title">match</div>
                                 <div class="rules-content-desc">
@@ -10663,7 +10752,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div role="tabpanel" id="tules-tabs-tabpane-21" aria-labelledby="tules-tabs-tab-21"
+                            <div role="tabpanel" id="rules-tabs-tabpane-21" aria-labelledby="rules-tabs-tab-21"
                                 class="fade tab-pane">
                                 <div class="rules-content-title">match</div>
                                 <div class="rules-content-desc">
@@ -10730,7 +10819,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div role="tabpanel" id="tules-tabs-tabpane-22" aria-labelledby="tules-tabs-tab-22"
+                            <div role="tabpanel" id="rules-tabs-tabpane-22" aria-labelledby="rules-tabs-tab-22"
                                 class="fade tab-pane">
                                 <div class="rules-content-title">match</div>
                                 <div class="rules-content-desc">
@@ -10764,7 +10853,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div role="tabpanel" id="tules-tabs-tabpane-23" aria-labelledby="tules-tabs-tab-23"
+                            <div role="tabpanel" id="rules-tabs-tabpane-23" aria-labelledby="rules-tabs-tab-23"
                                 class="fade tab-pane">
                                 <div class="rules-content-title">match</div>
                                 <div class="rules-content-desc">
@@ -10798,7 +10887,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div role="tabpanel" id="tules-tabs-tabpane-24" aria-labelledby="tules-tabs-tab-24"
+                            <div role="tabpanel" id="rules-tabs-tabpane-24" aria-labelledby="rules-tabs-tab-24"
                                 class="fade tab-pane">
                                 <div class="rules-content-title">match</div>
                                 <div class="rules-content-desc">
@@ -10832,7 +10921,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div role="tabpanel" id="tules-tabs-tabpane-25" aria-labelledby="tules-tabs-tab-25"
+                            <div role="tabpanel" id="rules-tabs-tabpane-25" aria-labelledby="rules-tabs-tab-25"
                                 class="fade tab-pane">
                                 <div class="rules-content-title">match</div>
                                 <div class="rules-content-desc">
@@ -10866,7 +10955,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div role="tabpanel" id="tules-tabs-tabpane-26" aria-labelledby="tules-tabs-tab-26"
+                            <div role="tabpanel" id="rules-tabs-tabpane-26" aria-labelledby="rules-tabs-tab-26"
                                 class="fade tab-pane">
                                 <div class="rules-content-title">match</div>
                                 <div class="rules-content-desc">
@@ -10904,7 +10993,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div role="tabpanel" id="tules-tabs-tabpane-27" aria-labelledby="tules-tabs-tab-27"
+                            <div role="tabpanel" id="rules-tabs-tabpane-27" aria-labelledby="rules-tabs-tab-27"
                                 class="fade tab-pane">
                                 <div class="rules-content-title">match</div>
                                 <div class="rules-content-desc">
@@ -10955,7 +11044,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div role="tabpanel" id="tules-tabs-tabpane-28" aria-labelledby="tules-tabs-tab-28"
+                            <div role="tabpanel" id="rules-tabs-tabpane-28" aria-labelledby="rules-tabs-tab-28"
                                 class="fade tab-pane">
                                 <div class="rules-content-title">match</div>
                                 <div class="rules-content-desc">
@@ -10989,7 +11078,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div role="tabpanel" id="tules-tabs-tabpane-29" aria-labelledby="tules-tabs-tab-29"
+                            <div role="tabpanel" id="rules-tabs-tabpane-29" aria-labelledby="rules-tabs-tab-29"
                                 class="fade tab-pane">
                                 <div class="rules-content-title">match</div>
                                 <div class="rules-content-desc">
@@ -11023,7 +11112,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div role="tabpanel" id="tules-tabs-tabpane-30" aria-labelledby="tules-tabs-tab-30"
+                            <div role="tabpanel" id="rules-tabs-tabpane-30" aria-labelledby="rules-tabs-tab-30"
                                 class="fade tab-pane">
                                 <div class="rules-content-title">match</div>
                                 <div class="rules-content-desc">
@@ -11057,7 +11146,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div role="tabpanel" id="tules-tabs-tabpane-31" aria-labelledby="tules-tabs-tab-31"
+                            <div role="tabpanel" id="rules-tabs-tabpane-31" aria-labelledby="rules-tabs-tab-31"
                                 class="fade tab-pane">
                                 <div class="rules-content-title">match</div>
                                 <div class="rules-content-desc">
@@ -11084,7 +11173,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div role="tabpanel" id="tules-tabs-tabpane-32" aria-labelledby="tules-tabs-tab-32"
+                            <div role="tabpanel" id="rules-tabs-tabpane-32" aria-labelledby="rules-tabs-tab-32"
                                 class="fade tab-pane">
                                 <div class="rules-content-title">fancy</div>
                                 <div class="rules-content-desc">
@@ -11125,6 +11214,7 @@
                                                             player</span></td>
                                                 </tr>
                                             </tbody>
+
                                         </table>
                                     </div>
                                 </div>
@@ -11176,7 +11266,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div role="tabpanel" id="tules-tabs-tabpane-33" aria-labelledby="tules-tabs-tab-33"
+                            <div role="tabpanel" id="rules-tabs-tabpane-33" aria-labelledby="rules-tabs-tab-33"
                                 class="fade tab-pane">
                                 <div class="rules-content-title">match</div>
                                 <div class="rules-content-desc">
@@ -11203,7 +11293,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div role="tabpanel" id="tules-tabs-tabpane-34" aria-labelledby="tules-tabs-tab-34"
+                            <div role="tabpanel" id="rules-tabs-tabpane-34" aria-labelledby="rules-tabs-tab-34"
                                 class="fade tab-pane">
                                 <div class="rules-content-title">match</div>
                                 <div class="rules-content-desc">
@@ -11230,7 +11320,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div role="tabpanel" id="tules-tabs-tabpane-35" aria-labelledby="tules-tabs-tab-35"
+                            <div role="tabpanel" id="rules-tabs-tabpane-35" aria-labelledby="rules-tabs-tab-35"
                                 class="fade tab-pane">
                                 <div class="rules-content-title">match</div>
                                 <div class="rules-content-desc">
@@ -11264,7 +11354,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div role="tabpanel" id="tules-tabs-tabpane-36" aria-labelledby="tules-tabs-tab-36"
+                            <div role="tabpanel" id="rules-tabs-tabpane-36" aria-labelledby="rules-tabs-tab-36"
                                 class="fade tab-pane">
                                 <div class="rules-content-title">match</div>
                                 <div class="rules-content-desc">
@@ -11320,7 +11410,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div role="tabpanel" id="tules-tabs-tabpane-37" aria-labelledby="tules-tabs-tab-37"
+                            <div role="tabpanel" id="rules-tabs-tabpane-37" aria-labelledby="rules-tabs-tab-37"
                                 class="fade tab-pane">
                                 <div class="rules-content-title">match</div>
                                 <div class="rules-content-desc">
@@ -11376,14 +11466,32 @@
                         </div>
                     </div>
                 </div>
-                <div class="modal-footer"><button class="btn btn-danger">Close</button></div>
+                <div class="modal-footer"><button class="btn btn-danger" data-bs-dismiss="modal" >Close</button></div>
             </div>
         </div>
+
     </div>
     <!-- Rule modal end -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
+        <script>
+            $(document).ready(function () {
+              $(".search-box a").on("click", function () {
+                $(".search-box input").toggleClass("search-input-show");
+              });
+            });
+          </script>
+    <script>
+        const tabLinks = document.querySelectorAll('#rules-tabs .nav-link');
+
+        tabLinks.forEach((link) => {
+            link.addEventListener('click', function () {
+                tabLinks.forEach((el) => el.classList.remove('active'));
+                this.classList.add('active');
+            });
+        });
+    </script>
 </body>
 
 
